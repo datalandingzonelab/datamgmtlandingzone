@@ -22,7 +22,7 @@ pr:
 variables:
   AZURE_RESOURCE_MANAGER_CONNECTION_NAME: "poc_datalandingzone" # Update to '{yourResourceManagerConnectionName}'
   AZURE_SUBSCRIPTION_ID: "33be6915-3f47-4ee4-b90f-78786e44b59b"                     # Update to '{yourDataManagementZoneSubscriptionId}'
-  AZURE_LOCATION: "Central India"                                                     # Update to '{yourRegionName}'
+  AZURE_LOCATION: "WestUS"                                                     # Update to '{yourRegionName}'
 
 stages:
   - stage: Validation
